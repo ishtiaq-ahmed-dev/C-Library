@@ -39,11 +39,23 @@ Display all results neatly formatted.
 📘 Learning Outcomes
 
 By practicing this project, you will:
+
+
 ✅ Master modular programming with helper functions
+
+
 ✅ Learn how to handle leap years and invalid dates
+
+
 ✅ Understand time unit conversions
+
+
 ✅ Strengthen your logic-building and debugging skills
+
+
 ✅ Build confidence with C++ input/output and conditionals
+
+
 
 👨‍💻 Author
 
