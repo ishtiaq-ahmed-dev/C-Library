@@ -32,14 +32,12 @@ bool isLeap(int year) {
 }
 
 🔹 Month Days Function
-
 int monthDays(int month, int year) {
     if (month == 2) return isLeap(year) ? 29 : 28;
     else if (month == 4 || month == 6 || month == 9 || month == 11) return 30;
     else if (month >= 1 && month <= 12) return 31;
     return 0;
 }
-
 
 🔹 Main Program Flow
 
@@ -54,7 +52,6 @@ Convert total lived time into days, weeks, hours, minutes, and seconds.
 Display all results neatly formatted.
 
 🧪 Example Execution
-
 Enter current year: 2025
 Enter current month: 10
 Enter current day: 9
@@ -74,6 +71,16 @@ Minutes: 13413600
 Seconds: 804816000
 ============================
 
+⚙️ How to Run
+
+Save this code as age_calculator.cpp
+
+Open terminal in the same folder
+
+Compile and execute:
+
+g++ age_calculator.cpp -o age_calc
+./age_calc
 
 📘 Learning Outcomes
 
@@ -87,4 +94,4 @@ By practicing this project, you will:
 👨‍💻 Author
 
 Ishtiaq Ahmed
-🎓 AI Student • 💻 C++ & Python Developer • 🧠 AI Developer
+🎓 AI Student • 💻 C++ & Python Developer • 🧠 Data Structures Enthusiast
