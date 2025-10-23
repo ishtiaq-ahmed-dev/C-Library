@@ -24,23 +24,7 @@ It demonstrates advanced handling of:
 
 ## 🧩 **Code Structure**
 
-### 🔹 **Leap Year Function**
-
-cpp
-bool isLeap(int year) {
-    return ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0));
-}
-
-###🔹 **Month Days Function**
-int monthDays(int month, int year) {
-    if (month == 2) return isLeap(year) ? 29 : 28;
-    else if (month == 4 || month == 6 || month == 9 || month == 11) return 30;
-    else if (month >= 1 && month <= 12) return 31;
-    return 0;
-}
-
-
-🔹 Main Program Flow
+### 🔹 **Main Program Flow**
 
 Take user input for current and birth dates.
 
@@ -65,4 +49,3 @@ By practicing this project, you will:
 
 Ishtiaq Ahmed
 🎓 AI Student • 💻 C++ & Python Developer • 🧠 AI Developer
-```
