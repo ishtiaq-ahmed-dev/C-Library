@@ -1,4 +1,3 @@
-cat <<'EOF' > README.md
 # 🎂 **Comprehensive Age Calculator in C++**
 
 This program calculates your **exact age** in **years, months, and days**, and also provides your **total age in weeks, days, hours, minutes, and seconds** — with full support for **leap years** and **date validation**.
@@ -81,18 +80,6 @@ Seconds: 804816000
 ============================
 \`\`\`
 
----
-
-## ⚙️ **How to Run**
-
-1. **Save** this code as \`age_calculator.cpp\`  
-2. **Open terminal** in the same folder  
-3. **Compile and execute:**
-
-\`\`\`bash
-g++ age_calculator.cpp -o age_calc
-./age_calc
-\`\`\`
 
 ---
 
@@ -110,5 +97,4 @@ By practicing this project, you will:
 ## 👨‍💻 **Author**
 
 **Ishtiaq Ahmed**  
-🎓 *AI Student* • 💻 *C++ & Python Developer* • 🧠 *Data Structures Enthusiast*
-EOF
+🎓 *AI Student* • 💻 *C++ & Python Developer* • 🧠 *AI Developer*
