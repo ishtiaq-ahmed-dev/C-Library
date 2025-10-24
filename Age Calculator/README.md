@@ -70,13 +70,21 @@ Enter your birth day: 15
 You are 25 years, 5 months, and 24 days old.
 
 ============================
+
 Total age in different units:
+
 Days   : 9315
+
 Weeks  : 1330
+
 Months : 305
+
 Hours  : 223560
+
 Minutes: 13413600
+
 Seconds: 804816000
+
 ============================
 \`\`\`
 
