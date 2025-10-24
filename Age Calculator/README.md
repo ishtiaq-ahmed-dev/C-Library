@@ -1,3 +1,4 @@
+cat <<'EOF' > README.md
 # 🎂 **Comprehensive Age Calculator in C++**
 
 This program calculates your **exact age** in **years, months, and days**, and also provides your **total age in weeks, days, hours, minutes, and seconds** — with full support for **leap years** and **date validation**.
@@ -24,40 +25,90 @@ It demonstrates advanced handling of:
 
 ## 🧩 **Code Structure**
 
+### 🔹 **Leap Year Function**
+
+\`\`\`cpp
+bool isLeap(int year) {
+    return ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0));
+}
+\`\`\`
+
+---
+
+### 🔹 **Month Days Function**
+
+\`\`\`cpp
+int monthDays(int month, int year) {
+    if (month == 2) return isLeap(year) ? 29 : 28;
+    else if (month == 4 || month == 6 || month == 9 || month == 11) return 30;
+    else if (month >= 1 && month <= 12) return 31;
+    return 0;
+}
+\`\`\`
+
+---
+
 ### 🔹 **Main Program Flow**
 
-Take user input for current and birth dates.
+1. Take user input for current and birth dates.  
+2. Validate the dates.  
+3. Calculate precise age in years, months, and days.  
+4. Convert total lived time into days, weeks, hours, minutes, and seconds.  
+5. Display all results neatly formatted.
 
-Validate the dates.
+---
 
-Calculate precise age in years, months, and days.
+## 🧪 **Example Execution**
 
-Convert total lived time into days, weeks, hours, minutes, and seconds.
+\`\`\`
+Enter current year: 2025
+Enter current month: 10
+Enter current day: 9
+Enter your birth year: 2000
+Enter your birth month: 4
+Enter your birth day: 15
 
-Display all results neatly formatted.
+You are 25 years, 5 months, and 24 days old.
 
-📘 Learning Outcomes
+============================
+Total age in different units:
+Days   : 9315
+Weeks  : 1330
+Months : 305
+Hours  : 223560
+Minutes: 13413600
+Seconds: 804816000
+============================
+\`\`\`
 
-By practicing this project, you will:
+---
 
+## ⚙️ **How to Run**
 
-✅ Master modular programming with helper functions
+1. **Save** this code as \`age_calculator.cpp\`  
+2. **Open terminal** in the same folder  
+3. **Compile and execute:**
 
+\`\`\`bash
+g++ age_calculator.cpp -o age_calc
+./age_calc
+\`\`\`
 
-✅ Learn how to handle leap years and invalid dates
+---
 
+## 📘 **Learning Outcomes**
 
-✅ Understand time unit conversions
+By practicing this project, you will:  
+✅ Master **modular programming** with helper functions  
+✅ Learn how to handle **leap years and invalid dates**  
+✅ Understand **time unit conversions**  
+✅ Strengthen your **logic-building and debugging** skills  
+✅ Build confidence with **C++ input/output and conditionals**
 
+---
 
-✅ Strengthen your logic-building and debugging skills
+## 👨‍💻 **Author**
 
-
-✅ Build confidence with C++ input/output and conditionals
-
-
-
-👨‍💻 Author
-
-Ishtiaq Ahmed
-🎓 AI Student • 💻 C++ & Python Developer • 🧠 AI Developer
+**Ishtiaq Ahmed**  
+🎓 *AI Student* • 💻 *C++ & Python Developer* • 🧠 *Data Structures Enthusiast*
+EOF
