@@ -27,7 +27,6 @@ Each program is **self-contained**, well-commented, and tested to ensure clarity
 | 🌐 `real_life_solutions/` | Real-world inspired C++ programs (calculators, managers, systems) |
 | 🧾 `misc/` | Experimental or extra utility programs for practice |
 
-> 💡 *You can expand each folder over time as your coding journey continues.*
 
 ---
 
